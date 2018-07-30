@@ -10,4 +10,12 @@ Steps to run this extension.
 2. Move folder 0into .vscode\extensions folder.
 3. Restart VSCODE and everything should be working!
 
+##Use
+
+Key bindings are ctrl + shift + v for windows and cmd + shift + v for Mac. 
+
+1. Copy/Cut some text.
+2. Select some other text that you wish to paste over while copying.
+3. use key binding to paste your copied code over the currently selected code while copying that code.
+
 **Enjoy!**

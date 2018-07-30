@@ -2,8 +2,12 @@
     "name": "copyswapper",
     "displayName": "copyswapper",
     "description": "Paste over selected text while copying what what previously there",
-    "version": "0.0.1",
-    "publisher": "braderickson324",
+    "version": "1.0.1",
+    "publisher": "berickson324",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/BradErickson/CopySwapVsCodeExtension.git"
+    },
     "engines": {
         "vscode": "^1.25.0"
     },
