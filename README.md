@@ -3,7 +3,7 @@
 VS Code extension that allows a user to paste code while copying the currently selected text.
 
 ## Requirements
-Download from vscode marketplace and use.
+Download from VSCODE extension marketplace and use.
 
 OR 
 
