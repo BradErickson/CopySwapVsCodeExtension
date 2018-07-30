@@ -22,6 +22,6 @@ Key bindings are ctrl + shift + v for windows and cmd + shift + v for Mac.
 3. use key binding to paste your copied code over the currently selected code while copying that code.
 
 
-<a href="./img/copySwapGif.gif"></a>
+![Getting Started](./img/copySwapGif.gif)
 
 **Enjoy!**
