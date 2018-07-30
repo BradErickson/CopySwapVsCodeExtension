@@ -8,7 +8,6 @@ const clipboardy = require('clipboardy');
 // your extension is activated the very first time the command is executed
 export function activate(context: vscode.ExtensionContext) {
     let copyswapper = vscode.commands.registerCommand("extension.copySwapper", () => {
-        vscode.window.showInformationMessage('Copy swap extension started.');
         insertCopiedText();
     });
 
@@ -28,15 +27,15 @@ function insertCopiedText () {
 
     let selection = editor.selection;
 
+    //get selected text range that will be copied to clipboard after pasting.
     let wordsToCopy = new vscode.Range(selection.start, selection.end);
-    var x = editor.document.getText(wordsToCopy);
+    let textToBeCopied = editor.document.getText(wordsToCopy);
     
+    //paste text that is currently copied to the clipboard.
     editor.edit(editInfo => {
         editInfo.replace(wordsToCopy, clipboardy.readSync());
     });
     
-    clipboardy.write(x);
-
-   
-
+    //save the text that was previoulsy selected to the clipboard.
+    clipboardy.write(textToBeCopied);
 } 

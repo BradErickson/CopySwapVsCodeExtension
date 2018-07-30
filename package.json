@@ -21,10 +21,11 @@
                 "title": "Copy Swap"
             }
         ],
-        "keybindings":[
+        "keybindings": [
             {
                 "command": "extension.copySwapper",
-                "key": "shift+ctrl+v"
+                "key": "shift+ctrl+v",
+                "mac": "shift+cmd+v"
             }
         ]
     },
