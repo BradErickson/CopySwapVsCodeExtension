@@ -5,6 +5,9 @@ VS Code extension that allows a user to paste code while copying the currently s
 ## Requirements
 
 Steps to run this extension.
+Download from VSCODE extension marketplace.
+
+OR 
 
 1. Clone repo and run an `npm install` and `npm run-script vscode:prepublish` to get dependencies and compile the project.
 2. Move folder into .vscode\extensions folder.
@@ -17,5 +20,8 @@ Key bindings are ctrl + shift + v for windows and cmd + shift + v for Mac.
 1. Copy/Cut some text.
 2. Select some other text that you wish to paste over while copying.
 3. use key binding to paste your copied code over the currently selected code while copying that code.
+
+
+<a href="./img/copySwapGif.gif"></a>
 
 **Enjoy!**

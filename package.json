@@ -2,7 +2,7 @@
     "name": "copyswapper",
     "displayName": "copyswapper",
     "description": "Paste over selected text while copying what what previously there",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "publisher": "berickson324",
     "repository": {
         "type": "git",
