@@ -3,8 +3,11 @@
 VS Code extension that allows a user to paste code while copying the currently selected text.
 
 ## Requirements
+Download from vscode marketplace and use.
 
-Steps to run this extension.
+OR 
+
+Steps to run this extension if pulled down from git hub.
 
 1. Clone repo and run an `npm install` and `npm run-script vscode:prepublish` to get dependencies and compile the project.
 2. Move folder into .vscode\extensions folder.
